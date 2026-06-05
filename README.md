@@ -19,6 +19,10 @@
 * **端云双向同步通信**：通过串口（UART）驱动 ESP8266 模块，使用 AT 指令与巴法云（Bemfa Cloud）MQTT 服务器建立长连接，实现本地数据的“实时上行上报”与云端控制指令的“异步下行控制”。
 
 ---
+<p align="center">
+  <img width="1279" height="1706" alt="Image" src="https://github.com/user-attachments/assets/a325cd46-23fa-47a9-b51f-d902f5d7eb27" />
+</p>
+
 
 ## 🏗️ 系统软件架构（多线程设计）
 系统上电后，通过调用 RT-Thread 线程初始化 API 动态创建了多个任务，并在后台由 RTT 调度器进行统一优先级调度，具体业务逻辑如下：
@@ -53,6 +57,3 @@ int main(void)
     return RT_EOK;
 }
 
-<p align="center">
-  <img width="1279" height="1706" alt="Image" src="https://github.com/user-attachments/assets/a325cd46-23fa-47a9-b51f-d902f5d7eb27" />
-</p>
