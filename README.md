@@ -6,7 +6,7 @@
 </p>
 
 ## 💡 项目简介
-本项目是一款基于 **STM32F103ZET6** 主控芯片与 **RT-Thread (RTT) 实时操作系统** 开发的智能汽车充电桩系统（简化版）。
+本项目是一款基于 **STM32F103ZET6** 主控芯片与 **RT-Thread (RTT) 实时操作系统** 开发的智能汽车充电桩系统。
 
 针对传统单片机裸机开发在处理网络通信时容易造成的“系统阻塞、实时性差”等痛点，引入了 RT-Thread 操作系统进行多线程并发管理。项目成功打通了**“底层感知（RFID刷卡/LCD交互） -> 传输层（ESP8266 Wi-Fi） -> 平台层（巴法云MQTT） -> 应用层（微信小程序）”**的智能物联网全链路闭环。
 
@@ -52,3 +52,7 @@ int main(void)
 
     return RT_EOK;
 }
+
+<p align="center">
+  <img width="1279" height="1706" alt="Image" src="https://github.com/user-attachments/assets/a325cd46-23fa-47a9-b51f-d902f5d7eb27" />
+</p>
