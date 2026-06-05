@@ -2,7 +2,7 @@
 
 ## 🚀 项目效果演示
 <p align="center">
-  <img src="gif.gif" alt="项目核心功能演示" width="600">
+  <img src="demo-gif.gif" alt="项目核心功能演示" width="600">
 </p>
 
 ---
