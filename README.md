@@ -2,9 +2,8 @@
 
 ## 🚀 项目效果演示
 <p align="center">
-  <img src="demo-gif.gif" alt="项目核心功能演示" width="600">
+  <img src="https://github.com/user-attachments/assets/1b9d3aa4-5b33-4ce0-bf26-4556c95f947c" alt="项目核心功能演示" width="300">
 </p>
-
 ---
 
 ## 💡 项目简介
