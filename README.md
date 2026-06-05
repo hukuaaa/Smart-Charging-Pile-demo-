@@ -4,7 +4,6 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1b9d3aa4-5b33-4ce0-bf26-4556c95f947c" alt="项目核心功能演示" width="300">
 </p>
----
 
 ## 💡 项目简介
 本项目是一款基于 **STM32F103ZET6** 主控芯片与 **RT-Thread (RTT) 实时操作系统** 开发的智能汽车充电桩系统（简化版）。
